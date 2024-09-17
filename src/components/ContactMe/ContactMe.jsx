@@ -1,5 +1,5 @@
 import React from "react";
-import "./contactMe.css";
+import "./ContactMe.css";
 import ContactInfoCard from "./ContactInfoCard/ContactInfoCard";
 import ContactForm from "./ContactForm/ContactForm";
 
@@ -17,10 +17,10 @@ const contactMe = () => {
           <ContactInfoCard
             iconUrl="./assets/images/github.png"
             text="https://github.com/Example"
-          /></div>
-          <div style={{ flex: 1 }}>
-            <ContactForm />
-          
+          />
+        </div>
+        <div style={{ flex: 1 }}>
+          <ContactForm />
         </div>
       </div>
     </section>
