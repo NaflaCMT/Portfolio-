@@ -3,9 +3,9 @@ import "./App.css";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Skills from "./components/Skills/Skills";
-import WorkExperience from "./components/workExperience/workExperience";
 import ContactMe from "./components/ContactMe/ContactMe";
 import Footer from "./components/Footer/Footer";
+import WorkExperience from "./components/WorkExperience/workExperience";
 
 const App = () => {
   return (

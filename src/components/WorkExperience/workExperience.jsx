@@ -6,7 +6,7 @@ import Slider from "react-slick";
 import { MdKeyboardArrowRight } from "react-icons/md";
 import { MdKeyboardArrowLeft } from "react-icons/md";
 
-const workExperience = () => {
+const WorkExperience = () => {
   const sliderRef = useRef();
   const setting = {
     dots: false,
@@ -59,4 +59,4 @@ const workExperience = () => {
   );
 };
 
-export default workExperience;
+export default WorkExperience;
